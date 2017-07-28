@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Route Routing</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body ng-app="RoadApp">
+
+  <h1>Route Routing</h1>
+
+  <div ng-view></div>
+
+  <li><a href="#!/highway101">Highway 101</a></li>
+  <li><a href="#!/sdfreeway">San Diego Freeway</a></li>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/controllers/highway101-controller.js"></script>
+  <script src="app/controllers/sd-freeway-controller.js"></script>
+</body>
+</html>
